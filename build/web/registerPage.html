@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Register Page</h2>
+        <form action="ServletDispatcher" method="POST"><br/>
+            Email <input type="text" name="txtEmail" value="" /><br/>
+            Password <input type="password" name="txtPassword" value="" /><br/>
+            Name <input type="text" name="txtName" value="" /><br/>
+            <input type="hidden" name="txtRole" value="Member" /><br/>
+            <input type="hidden" name="txtStatus" value="New" /><br/>
+            <input type="submit" value="Register" name="btAction" /><br/>
+            <input type="reset" value="Reset" />
+        </form>
+        <a href="loginPage.html">Click here to login!</a>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3_S_P0010" allowCasualMultipartParsing="true">
+    <Resource name="Dinh" type="javax.sql.DataSource" auth="Container"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;databaseName=SocialNetwork"
+              username="sa"
+              password="123"
+    /> 
+</Context>
