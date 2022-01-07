@@ -31,7 +31,7 @@ public class SendEmail {
 
     public static final String APP_EMAIL = "dinh3135134162@gmail.com";
 
-    public static final String APP_PASSWORD = "SHOWmethe1";
+    public static final String APP_PASSWORD = "";
 
     public static String sendOTP(String email) {
         String Capital_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
